@@ -1,4 +1,4 @@
-FROM  --platform=linux/amd64/v8 node:alpine
+FROM node:alpine
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
